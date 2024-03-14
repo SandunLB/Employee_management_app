@@ -31,7 +31,8 @@ This is a group project developed for [Enterprises Architecture]. The project ai
 2. Import the project into NetBeans.
 3. Set up the MySQL database with appropriate tables and configurations.
 4. Configure the application to connect to your MySQL database.
-5. Build and run the application.
+5. Add all the nessasary Java libraries
+6. Build and run the application.
 
 ## Usage
 
@@ -39,6 +40,29 @@ This is a group project developed for [Enterprises Architecture]. The project ai
 2. Use the GUI to perform CRUD operations on employee records.
 3. Explore various features such as searching and updating records.
 4. Enjoy managing your employee data efficiently!
+
+## Functionality by Group Members
+
+In this application, it is divided into 2 main categories: **Add employees** and **Assign employees (assign Employees to the Job/Task**. Each category has its own CRUD operations.
+**We had to create a two Interacting tables in database** cuz the Assignment guide says we must create at least two tables for CRUD Functions , thats why we creare **Add employees & Assign employees** 
+
+### Add Employees
+
+- **Create (Add Employee):** Implemented by KEG/IT/2021/F/0041 - Sandun LB.
+- **Read (View Employee):** Implemented by KEG/IT/2021/F/0043 - Anjana.
+- **Update (Update Employee):** Implemented by KEG/IT/2021/F/0090 - Maduranga.
+- **Delete (Delete Employee):** Implemented by KEG/IT/2021/F/0120 - Sahan.
+
+### Assign Employees
+
+- **Create (Assign Employee):** Implemented by KEG/IT/2021/F/0041 - Sandun LB.
+- **Read (View Assigned Employee):** Implemented by KEG/IT/2021/F/0043 - Anjana.
+- **Update (Update Assigned Employee Details):** Implemented by KEG/IT/2021/F/0090 - Maduranga.
+- **Delete (Delete Assigned Employees):** Implemented by KEG/IT/2021/F/0120 - Sahan.
+
+## Contribution
+
+**All group members contributed to various aspects of the project**. Apart from the specific functionalities mentioned above, **all members collaborated on UI enhancements, debugging, and fine-tuning of the application.**
 
 ## Contributing
 
@@ -53,6 +77,3 @@ Contributions are welcome! If you'd like to contribute to the project, please fo
 ## License
 
 This project is open-source, but it does not include a specific license. You are free to view, modify, and distribute the code as you see fit. However, please note that without a license, there are no explicit permissions or restrictions associated with the use of this software. It is recommended to consult with your legal advisor regarding the usage of this code.
-
-
-
