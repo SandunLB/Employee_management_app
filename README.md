@@ -45,19 +45,34 @@ This is a group project developed for [Enterprises Architecture]. The project ai
 
 In this application, it is divided into 2 main categories: **Add employees** and **Assign employees (assign Employees to the Job/Task**. Each category has its own CRUD operations. We had to create two interacting tables in the database because the assignment guide specifies that we must create at least two tables for CRUD Functions.
 
+
+
 ### Add Employees
 
 - **>Create (Add Employee):** Implemented by KEG/IT/2021/F/0041 - Sandun LB. This functionality allows users to add new employee records to the database.
+  
 - **>Read (View Employee):** Implemented by KEG/IT/2021/F/0043 - Anjana. This functionality allows users to view existing employee records.
+  
 - **>Update (Update Employee):** Implemented by KEG/IT/2021/F/0090 - Maduranga. This functionality allows users to modify information of existing employee records.
+  
 - **>Delete (Delete Employee):** Implemented by KEG/IT/2021/F/0120 - Sahan. This functionality allows users to remove employee records from the database.
+
+
 
 ### Assign Employees
 
 - **>Create (Assign Employee):** Implemented by KEG/IT/2021/F/0041 - Sandun LB. This functionality allows users to assign employees to specific tasks or jobs.
+  
 - **>Read (View Assigned Employee):** Implemented by KEG/IT/2021/F/0043 - Anjana. This functionality allows users to view employees who are currently assigned to tasks or jobs.
+  
 - **>Update (Update Assigned Employee Details):** Implemented by KEG/IT/2021/F/0090 - Maduranga. This functionality allows users to update details of employees who are already assigned to tasks or jobs, such as modifying their job roles or assignments.
+  
 - **>Delete (Delete Assigned Employees):** Implemented by KEG/IT/2021/F/0120 - Sahan. This functionality allows users to remove employees from their current assignments or tasks.
+
+
+
+*For clarity and professionalism, let's avoid embedding Java function codes directly. Please refer to the source file for all code details.* Thank You :) 
+
 
 
 ## Contribution
