@@ -44,6 +44,34 @@ This is a group project developed for [Enterprises Architecture]. The project ai
 ## Functionality by Group Members
 
 In this application, it is divided into 2 main categories: **Add employees** and **Assign employees (assign Employees to the Job/Task**. Each category has its own CRUD operations. We had to create two interacting tables in the database because the assignment guide specifies that we must create at least two tables for CRUD Functions.
+### Database and Table Creation
+
+**Employee Table**
+```
+CREATE TABLE `employee` (
+  `id` int(11) NOT NULL,
+  `name` varchar(255) NOT NULL,
+  `password` varchar(255) NOT NULL,
+  `email` varchar(255) NOT NULL,
+  `address` varchar(255) DEFAULT NULL,
+  `city` varchar(255) DEFAULT NULL,
+  `contact` varchar(255) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+```
+**Employeement Table (assign Employees)**
+```
+CREATE TABLE `employment_details` (
+  `employee_id` int(11) NOT NULL,
+  `department` varchar(255) NOT NULL,
+  `job_title` varchar(255) NOT NULL,
+  `employment_status` varchar(255) NOT NULL,
+  `hire_date` date NOT NULL,
+  `salary` decimal(10,2) DEFAULT NULL
+) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4 COLLATE=utf8mb4_general_ci;
+
+
+```
 
 ### Database Connection
 
